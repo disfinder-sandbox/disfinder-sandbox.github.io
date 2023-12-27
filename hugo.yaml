@@ -1,8 +1,29 @@
 baseURL: 'https://example.org/'
 languageCode: 'en-us'
-title: 'disfinder.com'
+title: 'disfinder.com 🇺🇦'
 theme: hugo-book
 
 services:
   disqus:
     shortname: disfinder-sandbox-github-io
+
+
+defaultContentLanguage: ua
+# defaultContentLanguageInSubdir: true
+languages:
+  ua:
+    disabled: false
+    languageCode: "uk-UA"
+    languageDirection: ""
+    languageName: "Ukrainian"
+    # title: "Ukraine"
+    weight: 1
+    contentDir: content/ua
+  en:
+    disabled: false
+    languageCode: "en-US"
+    languageDirection: ""
+    languageName: "English"
+    title: "disfinder.com 🇺🇸"
+    weight: 2
+    contentDir: content/en
